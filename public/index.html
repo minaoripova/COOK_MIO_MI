@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn">
+        <span class="material-icons">keyboard_arrow_up </span>
+    </button>
+<header>
+        <a href="#">C OO K <br> MIO MI</a>
+        <ul>
+            <li>All Recepies</li>
+            <li>About</li>
+            <li>Shop</li>
+            <li class="Abril">CookBook</li>
+        </ul>
+        <!-- <div class="dropbar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> -->
+    </header>
+    <div class="new">
+            <span class="label">NEW RECIPE</span> <br>
+            <span class="name">Sweet Cheese Brioche</span>
+            <p>Easy to make brioche w/ sweet & soft farmers cheese. Perfect for breakfast or afternoon tea.</p>
+            <a href="#" class="button">Recipe</a>
+    </div>
+    <div class="all-recipe-block">
+        <h1>ALL Recipes</h1>
+        <div class="recipes">
+            <a href="#" class="recipe">
+                <img src="img/IMG_4605.jpg" alt="">
+                <span>Vanilla Cheesecake w/ Chocolate Crust</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_0804.jpg" alt="">
+                <span>Cream Puffs w/ Cheese Filling</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_2592.jpg" alt="">
+                <span>Brioche Rose</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_3531.jpg" alt="">
+                <span>Cheese Filled Scones</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_4007.jpg" alt="">
+                <span>GLUTEN FREE Top and Bottom Crust Cheesecake</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_4192.jpg" alt="">
+                <span>Pumpkin shaped Brioche</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_4637.jpg" alt="">
+                <span>Ladder to Heaven Austrian Brioche</span>
+            </a>
+            <a href="#" class="recipe">
+                <img src="img/IMG_1436.jpg" alt="">
+                <span>Cabbage Stuffed Russian Pirozhki</span>
+            </a>
+        </div>
+        <a href="" class="button">
+            MORE RECIPES
+        </a>
+    </div>
+    <div class="ultimate-menus">
+        <div class="description">
+            <h2>Ultimate Breakfast Menus</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore suscipit aut ipsum dolor enim amet! Quisquam voluptas fuga accusamus inventore, ex nisi quidem error nobis odio. Assumenda id blanditiis facere voluptate voluptas molestias quo unde tenetur? Labore, culpa minima.</p>
+        </div>
+        <div class="menus">
+            <a href="#" class="menu">
+                <h4>Thanksgiving Leftovers to Festive Breakfast</h4>
+                <img src="img/IMG_4214.jpg" alt="">
+            </a>
+            <a href="#" class="menu">
+                <h4>Quiche for Family Breakfast</h4>               
+                <img src="img/IMG_1693.jpg" alt="">
+            </a>
+        </div>
+        <a href="" class="button">MORE MENUS</a>
+    </div>
+
+<div class="book">
+    <div> 
+        <span>How To <br> <span class="Abril">Less Sugar</span></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit illum ullam, soluta necessitatibus neque ipsam?
+        </p>
+        <a href="#" class="button">Buy Now</a>
+    </div>
+    <img src="img/BookCover.jpg" alt="">
+</div>
+<footer>
+    <a href="#">C OO K <br> MIO MI</a>
+
+    <ul>
+        <li>All Recepies</li>
+        <li>About</li>
+        <li>Shop</li>
+        <li>CookBook</li>
+    </ul>
+</footer>
+<script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0;
+    }
+    
+    </script>
+</body>    
+</html>
